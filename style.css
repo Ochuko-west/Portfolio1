@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* style navabar */
+/* .navbar{
+	background-color: #fff !important;
+} */
+/* color link text */
+.nav-link{
+	color: #1f1235;
+	margin: 0rem 0rem;
+	padding: 1.5rem 0rem;
+	font-weight: 600;
+	transition: all .4s ease-in-out;
+	
+}
+/* hover effect */
+.nav-link:hover{
+	background-color: #ff6e6c;
+	scale: 1.1;
+
+	
+}
+.homecont{
+	margin-top: 10rem;
+	color: #1f1235;
+}
+.name{
+	font-weight: 600;
+	font-size: 2.8rem;
+	color: #1f1235;
+	padding: 0rem;
+	margin: 0rem;
+}
+/* hr{
+	margin: 0rem;
+	padding: 0rem;
+	border: 3px solid #ff6e6c;
+} */
+.para{
+	margin-top: 0rem;
+	padding-top: 1rem;
+	line-height: 2.8;
+	font-size: 1.2rem
+
+}
+.card{
+	transition: all .3s ease-in-out;
+}
+.card:hover{
+	scale: 1.1;
+	cursor: pointer;
+}
+.card-body{
+	padding: 1rem 2rem;
+}
+.card-title{
+	font-size: 1.6rem;
+	font-weight: 600;
+	padding-top: 0rem;
+	margin-top: 0rem;
+}
+
+.carousel-inner{
+	padding: 0rem 0rem;
+	margin-bottom: 1rem;
+}
+.card-link{
+	text-decoration: none;
+	color: #1f1235;
+	background-color: #ff6e6c;
+	font-weight: 600;
+	padding: 0.5rem;
+	border: 1px solid #ff6e6c;
+	margin-top: 2rem;
+	border-radius: 5px;
+	font-size: 0.7rem;
+	transition: all .3s ease-in-out;
+}
+.card-link:hover{
+	background-color: #fff;
+	color: #ff6e6c;
+	scale: 1.2;
+	
+}
+/* style footer */
+.foot{
+	margin-top: 10rem;
+}
+.footer{
+	color: #1f1235;
+	font-size: 1.2rem;
+}
+.fab:hover{
+	color: #ff6e6c;
+	box-shadow: #ff6e6c 0px 7px 29px 0px;
+	scale: 1.5;
+	
+
+}
+.footer-wrapper{
+	color: #1f1235;
+}
+.copyright{
+	background-color: #ff6e6c;
+	color: #1b1425;
+}
