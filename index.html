@@ -335,7 +335,9 @@
         function sendEmail(){
             // console.log('am i working');
             Email.send({
-                secureToken : "386c07b5-c50f-4b82-8afe-6ddac3b534b3",
+                Host : "smtp.elasticemail.com",
+                Username : "creativesolutin01@gmail.com",
+                Password : "794E45933608D3D4873C0AC0501B7001CC16",
                 To : 'creativesolutin01@gmail.com',
                 From : 'creativesolutin01@gmail.com',
                 Subject : "New Enquiry From Contact Form",
@@ -357,7 +359,6 @@
                     alert('missing field')
                 }
                 else{
-                        alert('i')
                         sendEmail()
                 }
         })
