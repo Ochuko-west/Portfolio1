@@ -566,7 +566,7 @@ for mobile phones */
 
 	/* homepage styling */
 	.home{
-		margin-bottom: 50vh;
+		margin-bottom: 25vh;
 	}
 
 	/* about styling */
@@ -605,7 +605,7 @@ for mobile phones */
 	/* skills styling */
 	.skills{
 		margin-top: 20rem;
-		margin-bottom: 50vh;
+		margin-bottom: 25vh;
 	}
 	.skills h1{
 		font-size: 1.2rem;
@@ -643,7 +643,7 @@ for mobile phones */
 		text-underline-offset: 7px;
 	}
 	.projects{
-		margin-bottom: 50vh;
+		margin-bottom: 25vh;
 		
 	}
 	.project-div{

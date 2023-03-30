@@ -35,7 +35,7 @@
             <button aria-controls="navigation-links"
             aria-expanded="false" class="nav-toggle">
                 <span class="sr-only">menu</span><i class="fa-solid fa-bars"></i>
-                <i class="fa-solid fa-x fa-2x" data-visible="false"></i>
+                <i class="fa-solid fa-x" data-visible="false"></i>
             </button>
             <nav class="nav-bar-links">
 
@@ -147,7 +147,7 @@
                         <i class="fa-brands fa-git-alt fa-4x"></i>RESPONSIVE DESIGN
                        </div>
                        <div class="icon-wrapper">
-                        <i class="fa-brands fa-linkedin fa-4x"></i>
+                        <i class="fa-brands fa-linkedin fa-4x"></i>JQUERY
                        </div>
                        <div class="icon-wrapper">
                         <i class="fa-brands fa-linkedin fa-4x"></i>
@@ -341,8 +341,8 @@
                 To : 'creativesolutin01@gmail.com',
                 From : 'creativesolutin01@gmail.com',
                 Subject : "New Enquiry From Contact Form",
-                Body : `<b>Name:</b> ${ nameInput.value}</br><br>
-                        <b>Email:</b> ${ mail.value}<br><br>
+                Body : `<b>Name:</b> ${ nameInput.value}<br>
+                        <b>Email:</b> ${ mail.value}<br>
                         <b>Message:</b> ${ msg.value}`
                 }).then(
             message => alert(message)
